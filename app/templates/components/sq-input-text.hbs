@@ -1,0 +1,33 @@
+{{input
+		disabled=disabled
+		type=type
+		value=value
+		focus-in="focusIn"
+		focus-out="focusOut"
+		required=required
+		maxlength=maxlength
+		dir=dir
+		classNames='sq-align-left'
+		dasherize=dasherize
+		subdomain=subdomain
+		domain=domain
+		email=email
+		number=number
+		format=format
+		enterPressed='enterPressed'
+		whitespace=whitespace
+}}
+
+<label class="sq-align-left">{{placeholder}}</label>
+
+{{#if maxdisplay}}
+
+	<p>{{maxcount}}</p>
+
+{{/if}}
+
+{{#if after}}
+
+	{{input value=after classNames='after' dir=dir }}
+
+{{/if}}

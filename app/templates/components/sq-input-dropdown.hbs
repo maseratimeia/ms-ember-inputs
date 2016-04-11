@@ -1,0 +1,15 @@
+{{sq-input-text
+		placeholder=placeholder
+		value=selected.name
+		required=required
+		criteria=criteria
+		medium=medium
+}}
+
+<img class='sq-right arrow' src="assets/images/sq-dropdown-arrow.svg">
+
+<ul>
+	{{#each internals as |model|}}
+		{{sq-input-dropdown-item model=model select='select'}}
+	{{/each}}
+</ul>
