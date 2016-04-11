@@ -1,3 +1,3 @@
-import SqDropdown from 'sq-ember-inputs/components/sq-input-dropdown';
+import SqDropdown from 'ms-ember-inputs/components/sq-input-dropdown';
 
 export default SqDropdown;

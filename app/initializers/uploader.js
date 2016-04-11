@@ -1,4 +1,4 @@
-import UploaderService from 'sq-ember-inputs/services/uploader';
+import UploaderService from 'ms-ember-inputs/services/uploader';
 
 export function initialize () {
 

@@ -1,3 +1,3 @@
-import SqFileDroplet from 'sq-ember-inputs/components/sq-file-droplet';
+import SqFileDroplet from 'ms-ember-inputs/components/sq-file-droplet';
 
 export default SqFileDroplet;

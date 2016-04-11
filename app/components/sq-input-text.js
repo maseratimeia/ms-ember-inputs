@@ -1,3 +1,3 @@
-import SqInput from 'sq-ember-inputs/components/sq-input-text';
+import SqInput from 'ms-ember-inputs/components/sq-input-text';
 
 export default SqInput;

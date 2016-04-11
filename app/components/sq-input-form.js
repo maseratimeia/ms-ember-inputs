@@ -1,3 +1,3 @@
-import SqForm from 'sq-ember-inputs/components/sq-input-form';
+import SqForm from 'ms-ember-inputs/components/sq-input-form';
 
 export default SqForm;
